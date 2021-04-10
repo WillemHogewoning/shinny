@@ -1,0 +1,13 @@
+name: shinny
+title: shinny
+username:
+account: willemhogewoning
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3941783
+bundleId: 4455424
+url: https://willemhogewoning.shinyapps.io/shinny/
+when: 1618086694.57233
+lastSyncTime: 1618086694.57233
+asMultiple: FALSE
+asStatic: FALSE

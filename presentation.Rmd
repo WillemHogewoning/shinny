@@ -28,6 +28,7 @@ For the app I have used the diamonds dataset which is standard available when yo
 I have created a selector with works as a filter on the diamonds dataset.
 This demontrates how you quickly can make a interactive filter, for anyone to use.
 
+The app is at: https://willemhogewoning.shinyapps.io/shinny/
 
 ## 4 dataset
 As shown here a small overview of the dataset.
@@ -45,4 +46,5 @@ Here is the dataset shown in a historgram
 ```{r }
 hist(diamonds$price)
 ```
+rsconnect::deployApp('path/to/your/app')
 
