@@ -1,0 +1,48 @@
+---
+title: "Diamonds"
+author: "Willem Hogewoning"
+date: "10-4-2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 2 - Diamonds
+
+Date: 10-4-2021
+
+### introduction
+This presentation is part of : Peer-graded Assignment: Course Project: Shiny Application and Reproducible Pitch
+Which containers out of 2 assignments:
+- Create a Shinny App
+- Create a Presentation
+
+
+## 3 - Diamonds Selector
+
+For the app I have used the diamonds dataset which is standard available when you load the ggplot package.
+(or the tidyverse packets, which also loads the ggplot package ;-).
+
+I have created a selector with works as a filter on the diamonds dataset.
+This demontrates how you quickly can make a interactive filter, for anyone to use.
+
+
+## 4 dataset
+As shown here a small overview of the dataset.
+
+```{r  echo = TRUE, size=12}
+library(ggplot2)
+summary(diamonds$carat)
+summary(diamonds$price)
+```
+
+## 5 Dataset Histogram
+Here is the dataset shown in a historgram
+
+
+```{r }
+hist(diamonds$price)
+```
+

@@ -1,0 +1,15 @@
+---
+title: "info"
+author: "Willem Hogewoning"
+date: "10-4-2021"
+output: html_document
+---
+
+
+## Info
+# Coursera - Developing Data Products- Course Project 
+
+
+# create a filter for available diamonds selection.
+
+# using diamonds Dataset, from [R] 
